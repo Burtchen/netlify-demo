@@ -5,7 +5,7 @@
 <script>
 import Form from "./components/Form.vue";
 import "primevue/resources/primevue.min.css";
-import "primevue/resources/themes/nova-vue/theme.css";
+import "primevue/resources/themes/arya-orange/theme.css";
 
 export default {
   name: "App",
