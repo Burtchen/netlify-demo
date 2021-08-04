@@ -9,6 +9,7 @@
   },
   "dependencies": {
     "ajv": "^6.12.6",
+    "axios": "^0.21.1",
     "core-js": "^3.6.5",
     "primeflex": "^3.0.1",
     "primevue": "^3.6.0",
