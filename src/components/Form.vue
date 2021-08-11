@@ -30,6 +30,11 @@ export default {
         .post("/.netlify/functions/validate", this.value)
         .catch((e) => e.response);
 
+      if (result.status === 200 && '_paq' in window) {
+        // eslint-disable-next-line no-undef
+        _paq.push(['trackGoal', 1]);
+      }
+
       this.messages = [
         {
           severity: result.status === 200 ? "success" : "warn",
